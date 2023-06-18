@@ -1,0 +1,58 @@
+    p {
+        font-size: 13px;
+    }
+    
+    .games {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        gap: 1rem;
+        padding-top: 1rem;
+        justify-items: center;
+    }
+    
+    .texto {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        justify-items: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #e9e8e9;
+        font-size: 3vmin;
+    }
+    
+    .footer ul {
+        list-style: none;
+    }
+    
+    .lista {
+        display: flex;
+    }
+    
+    #lambda {
+        max-height: 10vmin;
+        max-width: auto;
+    }
+    
+    #valve {
+        max-width: 25vmin;
+        max-height: auto;
+    }
+    
+    @media (max-width:667px) {
+        .footer {
+            flex-direction: column;
+            align-items: center;
+        }
+        .politica {
+            display: flex;
+        }
+    }
